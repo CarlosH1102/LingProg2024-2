@@ -9,7 +9,7 @@
      float y = 12.345678; //Criando uma variavel real
      printf("Valor de y: %f\n", y);
      // Imprimindo valor de y com duas casas
-     printf("Valor de y: %.2f\n", y);
+     printf("Valor de y: %.2f\n", y); //.2f utilizado para imprimir resultado com 2 casas decimais
      char sexo = 'M';   //Váriavel que aceita um caractere (Sempre entre ' ' não " ")
      printf("Sexo: %c\n", sexo); 
      //Criando uma variavel String (Texto)
