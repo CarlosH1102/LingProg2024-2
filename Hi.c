@@ -17,5 +17,10 @@
      printf("Nome: %s\n", nome);
      //Imprimindo a primeira letra do nome
      printf(" Primeira Letra: %c\n", nome[0]);
+     printf("\n Digite o valor de x: ");
+     scanf ("%d" , &x); //%d é o tipo de variavel que eseprado ususario real ou inteira, & = vai guardar a informação no comando digitadono caso x.
+     printf(" O Valor Digitado foi %d" ,x);
      printf(" Hi Mundo");
+    ("http://github.com/ifmt-cba/lingprog20242")
+
         }
