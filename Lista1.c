@@ -28,21 +28,79 @@ void q4() {
 }
 
 //5. Faça um programa que leia dois números reais e os imprima.
-
+  void q5(){
+    float num =0;
+    float num2=0;
+    printf(" Digite um numero real: ");
+    scanf("%f", &num);
+    printf(" Digite o segundo numero real: ");
+    scanf("%f", &num2);
+    printf(" O Valor digitado foi %.2f %.2f", num, num2);
+  }
 //6. Faça um programa que leia um número inteiro e imprima o seu
 //   antecessor e o seu sucessor.
+void q6(){
+    int num,sucessor,antecessor =0;
+    printf(" Digite um numero inteiro: ");
+    scanf("%d", &num);
+    antecessor= num-1;
+    sucessor= num+1;
+    printf(" O numero antecessor é %d\n e o sucessor é %d\n", antecessor, sucessor);
+
+}
 
 //7. Faça um programa que leia o nome o endereço e o telefone de
 //   um cliente e ao final, imprima esses dados.
+void q7(){
+    char nome [50],end[50],telefone [14];
+    printf(" Digite o seu nome ");
+    scanf(" %50[^\n]", nome);
+    printf(" Digite Seu endereço: ");
+    scanf(" %50[^\n]", end);
+    printf(" Digite o seu numero de telefone: ");
+    scanf(" %14[^\n]", telefone);
+    printf(" Dados do cliente %s nome: \n%s rua: \n%s telefone: \n", nome,end,telefone);
+
+}
 
 //8. Faça um programa que leia dois números inteiros e imprima a
 //   subtração deles.
+void q8(){
+    int num,num2,sub=0;
+    printf(" Digite um numero inteiro ");
+    scanf("%d", &num);
+    printf(" Digite outro numero inteiro ");
+    scanf("%d", &num2);
+    sub= num-num2;
+    printf(" subtração dos numeros é: %d\n ", sub);
 
-//9. Faça um programa que leia umnúmero real e imprima ¼ deste número.
+}
+
+//9. Faça um programa que leia um número real e imprima ¼ deste número.
+void q9(){
+    float num=0;
+    printf(" Digite um numero real: ");
+    scanf("%f", &num);
+    num= num/4;
+    printf(" o Valor é: %.2f", num);
+
+}
 
 //10. Faça um programa que leia três números reais e calcule a
 //    média aritmética destes números. Ao final, o programa deve
 //    imprimir o resultado do cálculo.
+void q10(){
+    float num,num2,num3,media=0;
+    printf(" Digite um numero: ");
+    scanf("%f", &num);
+    printf(" Digite o segundo numero: ");
+    scanf("%f", &num2);
+    printf(" Digite o terceiro numero: ");
+    scanf("%f", &num3);
+    media= (num+num2+num3)/3.0;
+    printf(" A média Aritmetrica é: %.2f", media);
+
+}
 
 //11. Faça um programa que leia dois números reais e calcule as
 //    quatro operações básicas entre estes dois números, adição,
@@ -99,6 +157,6 @@ void q4() {
 //    necessário também ler o valor da cotação do dólar.
 
 int main() {
-    q4();
+    q10();
     return EXIT_SUCCESS;
 }
