@@ -157,6 +157,13 @@ void q14(){
 //15. Faça um programa que leia o valor de um produto, o percentual
 //    do desconto desejado e imprima o valor do desconto e o valor
 //    do produto subtraindo o desconto.
+void q15(){
+    float açai=50,Desconto,percetual,produtodescosto;
+    printf("Digite o produto: ");
+    scanf("%f", açai);
+    açai= 
+    
+}
 
 //16. Faça um programa que calcule o reajuste do salário de um
 //    funcionário. Para isso, o programa deverá ler o salário atual
