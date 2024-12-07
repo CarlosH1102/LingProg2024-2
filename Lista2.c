@@ -179,7 +179,39 @@ void questao09() {
 //10. Faça um programa que leia três números inteiros e imprima os três em ordem
 //crescente.
 void questao10() {
+	int num1,num2,num3;
+	printf("Digite três numeros inteiros: ");
+	scanf("%d%d%d", &num1, &num2, &num3);
+	system("clear");
+	  if (num1<num2 && num1<num3)
+	  {
+	printf("%d\n%d\n%d\n", num1, num2, num3);
+	  }
+            if(num2<num1 && num1<num3);
+		  {
+			printf("%d\n%d\n%d\n", num2,num1,num3);
 
+		  }
+		       if(num1<num3 && num3<num2)
+			   {
+               printf("%d\n%d\n%d\n", num1,num3,num2);
+
+			   }
+			       if(num3<num1 && num1<num2)
+				   {
+					printf("%d\n%d\n%d\n", num3,num1,num2);
+
+				   }
+				      if(num2<num3 && num3<num1)
+					  {
+						printf("%d\n%d\n%d\n", num1,num3,num2);
+
+					  }
+					     if(num3<num2 && num2<num1)
+						 {
+							printf("%d\n%d\n%d\n", num3,num2,num1);
+		
+						 }
 }
 
 //11. Faça um programa que leia 3 números e imprima o maior deles.
@@ -211,7 +243,7 @@ void questao12() {
 //13. Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota da
 //prova 2 de umaluno. O programa deve imprimir o nome, a nota da prova 1, a nota da prova 2, a média das notas e uma das mensagens: "Aprovado", "Reprovado"ou "em Prova Final"(a média é 7 para aprovação, menor que 3 para reprovação e as demais em prova final).
 void questao13() {
-	char nome[50]
+	char nome;
     float p1,p2,media;
     printf("Digite o seu nome: ");
     scanf("%s", &nome);
